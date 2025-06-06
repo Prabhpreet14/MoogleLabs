@@ -1,6 +1,6 @@
 import autogen, tiktoken
 
-inp=input('Enter your product name: ')
+inp=input('Enter your product name:')
 
 def num_tokens_from_string(string: str, encoding_name: str) -> int:
     encoding = tiktoken.get_encoding(encoding_name)
